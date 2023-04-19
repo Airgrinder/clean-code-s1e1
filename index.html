@@ -7,18 +7,18 @@
   </head>
   <body class="body">
     <header class="header">
-      <img src="./eisenhower-matrix.jpg">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="header__image" src="./eisenhower-matrix.jpg">
+      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="centered-main-page-element">
       <section id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
+        <h3 class="section__title add-item__title">Add Item</h3>
         <div class="task-row-wrapper">
           <input id="new-task"class="task" type="text"><button class="button">Add</button>
         </div>
       </section>
       <section>
-        <h3>Todo</h3>
+        <h3 class="section__title">Todo</h3>
         <ul id="incompleteTasks">
           <li class="list-item">
               <input type="checkbox">
@@ -35,10 +35,9 @@
               <button class="delete button"><img src="./remove.svg"></button>
           </li>
         </ul>
-
       </section>
       <section>
-        <h3>Completed</h3>
+        <h3 class="section__title">Completed</h3>
         <ul id="completed-tasks">
           <li class="list-item">
               <input type="checkbox" checked>
@@ -48,8 +47,6 @@
           </li>
         </ul>
       </section>
-
-
     </main>
     <script src="app.js"></script>
   </body>
