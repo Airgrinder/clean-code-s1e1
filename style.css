@@ -86,7 +86,7 @@ button:hover {
 }
 
 
-.input-text-field {
+.input-field {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +100,7 @@ button:hover {
 
 }
 
-.input-text-field:focus {
+.input-field:focus {
   color: #333;
 }
 
@@ -139,7 +139,7 @@ li > label {
   width: 226px;
 }
 
-li > .input-text-field {
+li > .input-field {
   width: 226px;
 }
 
@@ -154,7 +154,7 @@ li > .input-text-field {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completedTasks label {
   text-decoration: line-through;
   color: #888;
 }
