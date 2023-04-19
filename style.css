@@ -110,7 +110,7 @@ button:hover {
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#newTask {
   width: 318px;
 }
 
@@ -164,11 +164,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-item input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-item label {
   display: none;
 }
