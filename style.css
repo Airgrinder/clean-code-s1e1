@@ -100,7 +100,7 @@ button:hover {
 
 }
 
-input[type="text"]:focus {
+.input-text-field:focus {
   color: #333;
 }
 
@@ -139,7 +139,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
+li > .input-text-field {
   width: 226px;
 }
 
