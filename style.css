@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .header__link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__wrapper {
   display: flex;
 }
 
@@ -85,7 +85,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+
+.input-text-field {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,6 +97,7 @@ input[type="text"] {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+
 }
 
 input[type="text"]:focus {
