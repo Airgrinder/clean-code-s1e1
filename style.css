@@ -110,7 +110,7 @@ button:hover {
   margin: 0 0 20px;
 }
 
-input#newTask {
+input#new-task {
   width: 318px;
 }
 
@@ -154,7 +154,7 @@ li > .input-field {
 }
 
 /* Completed */
-ul#completedTasks label {
+ul#task-completed label {
   text-decoration: line-through;
   color: #888;
 }
